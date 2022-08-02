@@ -6,6 +6,7 @@
     --color-negro: rgb(0, 0, 0);
     --color-blanco: rgb(252, 248, 248);
     --fuente-1: 'Nunito', sans-serif;
+    --fuente-2: 'Cairo', sans-serif;
 }
 * {
     margin: 0;
