@@ -1,0 +1,14 @@
+:root {
+    --color-violeta: #270B3D;
+    --color-lila: #D2A6D6;
+    --color-gris: #D9D9D9;
+    --color-gris-oscuro: #1E1E1E;
+    --color-negro: rgb(0, 0, 0);
+    --color-blanco: rgb(252, 248, 248);
+    --fuente-1: 'Nunito', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
