@@ -23,3 +23,52 @@
     text-align: center;
     font-family: var(--fuente-2)
   }
+
+  
+#caja_del_header{
+    background-color: var(--color-gris);
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#Isologotipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-family: var(--fuente-1);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#botones_header{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+#circulo_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+#circulo{
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--color-lila);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: var(--color-gris-oscuro) 10px;
+}
+
+.top_div_styles{
+    font-family: var(--fuente-1);
+    font-size: large;
+    font-weight: bold;
+}
+
