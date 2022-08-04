@@ -7,6 +7,7 @@
     --color-blanco: rgb(252, 248, 248);
     --fuente-1: 'Nunito', sans-serif;
     --fuente-2: 'Cairo', sans-serif;
+    --color-gris-sombra: rgb(153, 144, 144);
 }
 * {
     margin: 0;
@@ -17,6 +18,12 @@ body{
     background-color: var(--color-violeta);
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-between;
+}
 /* HEADER */
 
 #caja_del_header{
@@ -74,7 +81,7 @@ body{
     height: 33rem;
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 33rem;
+    margin: 20px 60px;
 }
 #EspacioFoto{
     background-color: var(--color-lila);
@@ -112,6 +119,25 @@ body{
 .textotemporario{
     font-family: var(--fuente-2);
     font-weight: bold;
+}
+
+/*TABLERO MATCHS*/
+
+.Listadechats{
+    background-color: var(--color-gris);
+    width: 25%;  
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 5%;
+    padding: 2%;
+}
+
+.matchs{
+    background-color: var(--color-lila);
+    width: 100%;
+    box-shadow: 0px 3px 3px var(--color-gris-sombra);
+    
+
 }
 
 /* FOOTER */
