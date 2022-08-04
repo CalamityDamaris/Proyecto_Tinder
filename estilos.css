@@ -13,18 +13,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: var(--color-gris);
-    text-align: center;
-    font-family: var(--fuente-2)
-  }
+body{
+    background-color: var(--color-violeta);
+}
 
-  
+/* HEADER */
+
 #caja_del_header{
     background-color: var(--color-gris);
     height: 4rem;
@@ -71,4 +65,67 @@
     font-size: large;
     font-weight: bold;
 }
+
+/* CARTA PRINCIPAL */
+
+#CartaPrincipal{
+    background-color: var(--color-gris);
+    width: 53%;
+    height: 33rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 33rem;
+}
+#EspacioFoto{
+    background-color: var(--color-lila);
+    width: 55%;
+    height: 65%;
+    margin: 2rem 2rem;
+}
+#EspacioDescripcion{
+    background-color: var(--color-blanco);
+    width: 30%;
+    height: 65%;
+    margin-top: 2rem;
+}
+#EspacioBotones{
+    background-color: var(--color-blanco);
+    width:90%;
+    height: 15%;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    display: flex;
+}
+#si{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(19, 127, 46); */
+}
+#no{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(173, 37, 37); */
+}
+.bx{
+    font-size: 3rem;
+}
+.textotemporario{
+    font-family: var(--fuente-2);
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: var(--color-gris);
+    text-align: center;
+    font-family: var(--fuente-2);
+    font-weight: bold;
+}
+
 
