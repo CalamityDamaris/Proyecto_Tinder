@@ -21,7 +21,7 @@ body{
 main{
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 3rem;
     justify-content: space-between;
 }
 /* HEADER */
@@ -79,38 +79,41 @@ main{
     background-color: var(--color-gris);
     width: 53%;
     height: 33rem;
+/*     display: flex;
+    flex-direction: row; */
+    margin: 1rem 3rem;
+}
+#prueba{
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px 60px;
+    flex-direction: row;
+    height: 80%;
 }
 #EspacioFoto{
     background-color: var(--color-lila);
     width: 55%;
-    height: 65%;
+    /* height: 65%; */
     margin: 2rem 2rem;
 }
 #EspacioDescripcion{
     background-color: var(--color-blanco);
     width: 30%;
-    height: 65%;
+    /* height: 65%; */
     margin-top: 2rem;
-}
-#EspacioBotones{
-    background-color: var(--color-blanco);
-    width:90%;
-    height: 15%;
+    margin-right: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+}
+#prueba2{
+    margin: 1rem 2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #si{
     width: 50%;
-    height: 100%;
     background-color: rgb(44, 138, 68); 
 }
 #no{
     width: 50%;
-    height: 100%;
     background-color: rgb(192, 58, 58);
 }
 .bx{
