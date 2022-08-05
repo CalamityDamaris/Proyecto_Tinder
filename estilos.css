@@ -106,12 +106,12 @@ main{
 #si{
     width: 50%;
     height: 100%;
-    /* background-color: rgb(19, 127, 46); */
+    background-color: rgb(44, 138, 68); 
 }
 #no{
     width: 50%;
     height: 100%;
-    /* background-color: rgb(173, 37, 37); */
+    background-color: rgb(192, 58, 58);
 }
 .bx{
     font-size: 3rem;
