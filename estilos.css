@@ -102,6 +102,7 @@ main{
     margin-bottom: 2rem;
     margin-left: 2rem;
     display: flex;
+    flex-direction: row;
 }
 #si{
     width: 50%;
