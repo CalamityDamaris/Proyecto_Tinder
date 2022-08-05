@@ -2,12 +2,16 @@
     --color-violeta: #270B3D;
     --color-lila: #D2A6D6;
     --color-gris: #D9D9D9;
+    --color-gris-sombra: rgb(153, 144, 144);
     --color-gris-oscuro: #1E1E1E;
     --color-negro: rgb(0, 0, 0);
     --color-blanco: rgb(252, 248, 248);
+    --color-verde: rgb(44, 138, 68);
+    --color-verde-oscuro: rgb(15, 68, 15);
+    --color-rojo:  rgb(190, 65, 65);
+    --color-rojo-oscuro:  rgb(108, 8, 8);
     --fuente-1: 'Nunito', sans-serif;
     --fuente-2: 'Cairo', sans-serif;
-    --color-gris-sombra: rgb(153, 144, 144);
 }
 * {
     margin: 0;
@@ -79,11 +83,9 @@ main{
     background-color: var(--color-gris);
     width: 53%;
     height: 33rem;
-/*     display: flex;
-    flex-direction: row; */
     margin: 1rem 3rem;
 }
-#prueba{
+#Container{
     display: flex;
     flex-direction: row;
     height: 80%;
@@ -91,29 +93,36 @@ main{
 #EspacioFoto{
     background-color: var(--color-lila);
     width: 55%;
-    /* height: 65%; */
     margin: 2rem 2rem;
+    box-shadow: 0rem 0.3rem 0.3rem var(--color-gris-sombra);
 }
 #EspacioDescripcion{
     background-color: var(--color-blanco);
     width: 30%;
-    /* height: 65%; */
     margin-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+    box-shadow: 0rem 0.3rem 0.3rem var(--color-gris-sombra);
 }
-#prueba2{
-    margin: 1rem 2rem;
+#EspacioBotones{
+    margin: 0.4rem 2rem;
     display: flex;
     flex-direction: row;
+    height: 12%;
 }
 #si{
     width: 50%;
-    background-color: rgb(44, 138, 68); 
+    background-color: var(--color-verde); 
+}
+#si:hover{
+    background-color: var(--color-verde-oscuro);
 }
 #no{
     width: 50%;
-    background-color: rgb(190, 65, 65);
+    background-color: var(--color-rojo);
+}
+#no:hover{
+    background-color: var(--color-rojo-oscuro);
 }
 .bx{
     font-size: 3rem;
@@ -137,9 +146,7 @@ main{
 .matchs{
     background-color: var(--color-lila);
     width: 100%;
-    box-shadow: 0px 3px 3px var(--color-gris-sombra);
-    
-
+    box-shadow: 0rem 0.2rem 0.2rem var(--color-gris-sombra);
 }
 
 /* FOOTER */
