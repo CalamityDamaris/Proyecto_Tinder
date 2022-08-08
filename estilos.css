@@ -121,24 +121,31 @@ main{
 #si{
     width: 50%;
     background-color: var(--color-verde);
-    border-radius: 0.3rem;
+    border-radius: 2rem;
     border: rgb(100, 176, 100) solid;
 }
 #si:hover{
     background-color: var(--color-verde-oscuro);
 }
+#si:hover .bx{
+    color: var(--color-blanco);
+}
 #no{
     width: 50%;
     background-color: var(--color-rojo);
-    border-radius: 0.3rem;
+    border-radius: 2rem;
     border: rgb(177, 90, 90) solid ;
 }
 #no:hover{
     background-color: var(--color-rojo-oscuro);
 }
+#no:hover .bx{
+    color: var(--color-blanco);
+}
 .bx{
     font-size: 3rem;
 }
+
 #Nombre{
     font-family: var(--fuente-2);
     padding-left: 0.5rem;
