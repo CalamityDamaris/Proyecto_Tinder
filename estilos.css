@@ -77,6 +77,10 @@ main{
     font-weight: bold;
 }
 
+.top_div_styles:hover{
+    text-decoration: underline;
+}
+
 /* CARTA PRINCIPAL */
 
 #CartaPrincipal{
@@ -233,7 +237,8 @@ main{
     right: 0;
     bottom: 0;
     left: 0; */
-    padding: 2.5rem;
+    height: 9rem;
+    padding: 1rem;
     background-color: var(--color-gris);
     text-align: center;
     font-family: var(--fuente-2);
