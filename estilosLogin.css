@@ -1,8 +1,25 @@
+:root {
+    --color-violeta: #270B3D;
+    --color-lila: #D2A6D6;
+    --color-gris: #D9D9D9;
+    --color-gris-sombra: rgb(153, 144, 144);
+    --color-gris-oscuro: #1E1E1E;
+    --color-negro: rgb(0, 0, 0);
+    --color-blanco: rgb(252, 248, 248);
+    --color-verde: rgb(99, 182, 120);
+    --color-verde-oscuro: rgb(38, 74, 38);
+    --color-rojo:  rgb(173, 82, 82);
+    --color-rojo-oscuro:  rgb(101, 47, 47);
+    --fuente-1: 'Nunito', sans-serif;
+    --fuente-2: 'Cairo', sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: var(--fuente-1)
 }
 
 body {
@@ -10,16 +27,16 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(54, 33, 54);
+    background: linear-gradient(to right, #4c007d,rgb(144, 85, 144));
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background: #e8d1e7;
+    background: #A461A6;
     text-align: center;
     padding: 20px 25px;
-    box-shadow: 0 5px 10px #1b004b(71, 3, 6, 0.7);
+    box-shadow: 0 5px 10px #260331(71, 3, 6, 0.7);
 }
 
 form .titulo {
