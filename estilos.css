@@ -81,6 +81,11 @@ main{
     text-decoration: underline;
 }
 
+#prueba{
+    background-color: white;
+    width: 20%;
+    position: relative;
+}
 /* CARTA PRINCIPAL */
 
 #CartaPrincipal{
@@ -244,5 +249,3 @@ main{
     font-family: var(--fuente-2);
     font-weight: bold;
 }
-
-

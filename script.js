@@ -12,5 +12,15 @@ const robotin = {
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem molestiae delectus corporis eaque ut inventore ullam perspiciatis quas, numquam molestias rerum libero pariatur laboriosam quisquam incidunt ducimus, deserunt reprehenderit sint.",
 }
 
-let imagen1 = arrayLista[0]
-$("imagen1").attr("src",imagen1)
+const circuloRosa = document.getElementById("circulo")
+circuloRosa.addEventListener('click',toggleLoginSection)
+
+
+function toggleLoginSection() {
+    let circuloLogin = document.getElementById("prueba")
+    if (circuloLogin.style.display === "none") {
+        circuloLogin.style.display = "inline";
+    } else {
+        circuloLogin.style.display = "none";
+    }
+  }
