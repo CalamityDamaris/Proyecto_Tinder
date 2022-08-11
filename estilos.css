@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--color-violeta);
+    background-color: var(--color-violeta)
 }
 
 main{
@@ -248,4 +248,63 @@ main{
     text-align: center;
     font-family: var(--fuente-2);
     font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--color-lila);
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0.5rem 0.5rem 2rem var(--color-violeta);
+    border-radius: 0.7rem;
+    font-family: var(--fuente-1);
+}
+
+form .titulo {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    /* margin-bottom: 30px; */
+    
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+#button{
+    background-color: var(--color-violeta);
+    border-radius: 0.7rem;
+    box-shadow: 0.5rem 0.5rem 2rem var(--color-violeta)
+}
+
+#boton_login{
+    color: var(--color-blanco);
+}
+
+#Isologotipo_login{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuente-1);
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: var(--color-violeta);
+    border-radius: 0.7rem;
+    box-shadow: 0.2rem 0.2rem 2rem var(--color-violeta)
+}
+
+#login_fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(to right, #4c007d,rgb(144, 85, 144)); */
+    background-image: url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
