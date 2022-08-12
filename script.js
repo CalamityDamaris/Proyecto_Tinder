@@ -23,4 +23,11 @@ function toggleLoginSection() {
     } else {
         circuloLogin.style.display = "none";
     }
-  }
+}
+/* SLIDER */
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+});
