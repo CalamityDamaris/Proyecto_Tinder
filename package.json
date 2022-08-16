@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_tinder",
+  "version": "1.0.0",
+  "description": "Probando vinculacion desde vscode - Facu",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalamityDamaris/Proyecto_Tinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalamityDamaris/Proyecto_Tinder/issues"
+  },
+  "homepage": "https://github.com/CalamityDamaris/Proyecto_Tinder#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
