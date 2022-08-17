@@ -281,7 +281,6 @@ footer{
     text-align: center;
     font-family: var(--fuente-2);
     font-weight: bold;
-    position: absolute;
     bottom: 0px;
     width: 100vw;
 }
