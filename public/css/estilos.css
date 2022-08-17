@@ -271,18 +271,40 @@ main{
 /* FOOTER */
 
 footer{
-    /* position:sticky;
-    right: 0;
-    bottom: 0;
-    left: 0; */
-    height: 9rem;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--color-gris);
-    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#texto{
+    width: 30%;
     font-family: var(--fuente-2);
     font-weight: bold;
     bottom: 0px;
     width: 100vw;
+
+}
+
+#iconos_redes{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#iconos_redes div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--fuente-2);
+    font-weight: bold;
+}
+
+.texto_lorem{
+    width: 25%;
+    font-family: var(--fuente-2);
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 form {
