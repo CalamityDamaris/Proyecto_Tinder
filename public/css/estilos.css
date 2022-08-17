@@ -271,19 +271,18 @@ main{
 /* FOOTER */
 
 footer{
-    padding: 0.5rem;
+    padding: 0.7rem;
     background-color: var(--color-gris);
     display: flex;
     align-items: center;
+    position: relative;
+    top: 4rem;
 }
 
 #texto{
     width: 30%;
     font-family: var(--fuente-2);
     font-weight: bold;
-    bottom: 0px;
-    width: 100vw;
-
 }
 
 #iconos_redes{
