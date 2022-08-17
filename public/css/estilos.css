@@ -271,10 +271,12 @@ main{
 /* FOOTER */
 
 footer{
-    padding: 0.5rem;
+    padding: 0.7rem;
     background-color: var(--color-gris);
     display: flex;
     align-items: center;
+    position: relative;
+    top: 4rem;
 }
 
 #texto{
