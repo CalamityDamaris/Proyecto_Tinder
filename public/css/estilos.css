@@ -270,7 +270,7 @@ main{
 
 /* FOOTER */
 
-.footer {
+footer{
     /* position:sticky;
     right: 0;
     bottom: 0;
@@ -281,6 +281,9 @@ main{
     text-align: center;
     font-family: var(--fuente-2);
     font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
 }
 
 form {
@@ -337,7 +340,7 @@ label{
     justify-content: center;
     min-height: 100vh;
     /* background: linear-gradient(to right, #4c007d,rgb(144, 85, 144)); */
-    background-image: url(fondo2.jpg);
+    background-image: url(../img/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
