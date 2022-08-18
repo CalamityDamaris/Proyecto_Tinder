@@ -51,7 +51,7 @@ main{
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 #circulo_usuario{
@@ -71,20 +71,50 @@ main{
     border: var(--color-gris-oscuro) 10px;
 }
 
+/*LISTA DEL HEADER*/
+
 .top_div_styles{
     font-family: var(--fuente-1);
     font-size: large;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .top_div_styles:hover{
     text-decoration: underline;
 }
 
+.top_div_styles:hover .tooltip-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip-box{
+    display: none;
+	position: absolute;
+	background: #000;
+	line-height: 20px;
+	z-index: 500;
+	color: #fff;
+	font-size: 1rem;
+    padding: 10px;
+	border-radius: 0.5rem;
+    top: 3rem;
+    width: 20%;
+}
+
 #prueba{
     background-color: white;
     width: 20%;
-    position: relative;
+    position: absolute;
+    left: 65rem;
+	z-index: 499;
+	height: 70%;
+	bottom: 7rem;
+	border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem var(--color-gris-oscuro);
 }
 /* CARTA PRINCIPAL */
 
