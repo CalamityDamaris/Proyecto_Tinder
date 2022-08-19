@@ -31,3 +31,11 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
     },
 });
+
+/* DARK MODE TOGGLE */
+
+const btnSwitch = document.getElementById("switch")
+
+btnSwitch.addEventListener("click",()=>{
+    document.body.classList.toggle("dark")
+})
