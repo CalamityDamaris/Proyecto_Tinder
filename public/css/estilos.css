@@ -42,22 +42,30 @@ main{
 
 body.dark #caja_del_header{
     background-color: var(--color-gris-oscuro);
+    color: var(--color-blanco);
+    box-shadow: 0px 10px 20px 10px var(--color-violeta)
 }
 
 body.dark .Listadechats{
     background-color: var(--color-gris-oscuro);
+    box-shadow: 0px 10px 20px 10px var(--color-violeta)
 }
 
 body.dark #CartaPrincipal{
     background-color: var(--color-gris-oscuro);
+    box-shadow: 0px 10px 20px 10px var(--color-violeta)
 }
 
 body.dark #prueba{
     background-color: var(--color-gris-oscuro);
+    color: var(--color-blanco);
+    box-shadow: 0px 10px 20px 10px var(--color-violeta)
 }
 
 body.dark footer{
     background-color: var(--color-gris-oscuro);
+    color: var(--color-blanco);
+    box-shadow: 0px 10px 20px 10px var(--color-violeta)
 }
 
 #Isologotipo{
