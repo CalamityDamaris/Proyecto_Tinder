@@ -43,29 +43,29 @@ main{
 body.dark #caja_del_header{
     background-color: var(--color-gris-oscuro);
     color: var(--color-blanco);
-    box-shadow: 0px 10px 20px 10px var(--color-violeta)
+    box-shadow: 0.2rem 0.2rem 2.5rem var(--color-lila)
 }
 
 body.dark .Listadechats{
     background-color: var(--color-gris-oscuro);
-    box-shadow: 0px 10px 20px 10px var(--color-violeta)
+    box-shadow: 0.2rem 0.2rem 3rem var(--color-lila)
 }
 
 body.dark #CartaPrincipal{
     background-color: var(--color-gris-oscuro);
-    box-shadow: 0px 10px 20px 10px var(--color-violeta)
+    box-shadow: 0.2rem 0.2rem 3rem var(--color-lila)
 }
 
 body.dark #prueba{
     background-color: var(--color-gris-oscuro);
     color: var(--color-blanco);
-    box-shadow: 0px 10px 20px 10px var(--color-violeta)
+    box-shadow: 0.2rem 0.2rem 3rem var(--color-lila)
 }
 
 body.dark footer{
     background-color: var(--color-gris-oscuro);
     color: var(--color-blanco);
-    box-shadow: 0px 10px 20px 10px var(--color-violeta)
+    box-shadow: 0.2rem 0.2rem 3rem var(--color-lila)
 }
 
 #Isologotipo{
@@ -112,6 +112,11 @@ body.dark footer{
 #switch{
     width: 50%;
     height: 50%;
+    border-radius: 5rem;
+    background-color: var(--color-negro);
+}
+#lunita{
+    font-size: 1.2rem;
 }
 
 /*LISTA DEL HEADER*/
