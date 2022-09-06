@@ -40,19 +40,19 @@
             <div id="Isologotipo_login">FINDER<i class='bx bxs-donate-heart bx-md' style='color:#d2a6d6'></i></i></div>
             <label>
                 <i class="bx bx-user"></i>
-                <input type="name" placeholder="Nombre">
+                <input type="name" name="username" placeholder="Nombre">
             </label>
             <label>
                 <i class='bx bx-calendar'></i>
-                <input type="number" placeholder="Edad">
+                <input type="number" name="age" placeholder="Edad">
             </label>
             <label>
                 <i class='bx bxl-gmail'></i>
-                <input type="email" placeholder="Correo electronico">
+                <input type="email" name="email" placeholder="Correo electronico">
             </label>
             <label>
                 <i class="bx bxs-lock-alt"></i>
-                <input type="password" placeholder="Contraseña">
+                <input type="password" name="password" placeholder="Contraseña">
             </label>
             <div class="intereses">
                 <i class='bx bx-male-female'></i>
@@ -99,10 +99,14 @@
                       </select>
                 </label>
             </div>
-            <label>
-            <i class='bx bxs-camera-plus'></i>
-            <input type="file" placeholder="Imagen tuya">
-            </label>
+            <div id="imgContainer">
+                <i class='bx bxs-camera-plus'></i>
+                <label id="imagenes">
+                    <input type="file">
+                    <input type="file">
+                    <input type="file">
+                </label>
+            </div><br>
             <input type="submit" value="Haz click aqui para registrarte">
         </form>
     </div>

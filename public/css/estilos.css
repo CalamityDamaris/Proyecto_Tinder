@@ -469,4 +469,13 @@ label{
     display: flex;
     align-items: center;
 }
+
+#imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+#imgContainer{
+    display: flex;
+}
 /* aaaa */
