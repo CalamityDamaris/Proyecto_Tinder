@@ -465,4 +465,8 @@ label{
     height: 15%;
 }
 
+.intereses{
+    display: flex;
+    align-items: center;
+}
 /* aaaa */
