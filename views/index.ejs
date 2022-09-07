@@ -81,36 +81,32 @@
         <section id="CartaPrincipal">
             <!-- Carta principal, encargada = Damaris -->
                 <div id="Container">
+                    <% for (let i = 0; i < users.length; i++){ %> 
                     <div id="EspacioFoto">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://www.rappler.com/tachyon/2022/05/love-death-robots-three.jpg"></div>
-                            <div class="swiper-slide"><img src="https://therpf-f28a.kxcdn.com/forums/data/avatars/h/160/160119.jpg?1559226147"></div>
-                            <div class="swiper-slide"><img src="https://content.internetvideoarchive.com/content/hdphotos/13937/013937/013937_1365x768_637866043164751552.jpg"></div>
-                            <div class="swiper-slide"><img src="https://helios-i.mashable.com/imagery/videos/01Dij3BqFtVjvlRUsZnz6CS/hero-image.fill.size_1200x1200.v1652950209.png"></div>
-                            <!-- <div class="swiper-slide">Slide 5</div>
-                            <div class="swiper-slide">Slide 6</div>
-                            <div class="swiper-slide">Slide 7</div>
-                            <div class="swiper-slide">Slide 8</div>
-                            <div class="swiper-slide">Slide 9</div> -->
+                                <% for (let l = 0; l < users[i].avatar.length; l++ ){ %>
+                            <div class="swiper-slide"><img src= "img/avatars/<%= users[i].avatar[l] %>"></div>
+                            <% } %> 
                             </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
                         </div>
                     </div>
                     <div id="EspacioDescripcion">
-                        <div id="Nombre"><h1>ROBOTIN</h1></div>
-                        <div id="Edad"><p>202</p></div>
+                        <div id="Nombre"><h1><%= users[i].username %> </h1></div>
+                        <div id="Edad"><p><%= users[i].age %> </p></div>
                         <div id="Gustos">
                             <ul>
-                                <li id="gusto1">gusto</li>
-                                <li id="gusto2">gusto</li>
-                                <li id="gusto3">gusto</li>
-                            </ul>
+                                <li id="gusto1"><%= users[i].likes[0] %></li>
+                                <li id="gusto2"><%= users[i].likes[1] %></li>
+                                <li id="gusto3"><%= users[i].likes[2] %></li>
+                            </ul> 
                         </div>
                         <div id="Descripcion"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem molestiae delectus corporis eaque ut inventore ullam perspiciatis quas, numquam molestias rerum libero pariatur laboriosam quisquam incidunt ducimus, deserunt reprehenderit sint.</p></div>
                     </div>
                 </div>
+                <% } %> 
                 <div id="EspacioBotones">
                     <button id="si"><i class='bx bx-check'></i></button>
                     <button id="no"><i class='bx bx-x' ></i></button>

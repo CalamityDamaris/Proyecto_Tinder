@@ -36,7 +36,7 @@
             <a href="#" class="link">Olvidaste tu Contraseña?</a>
             <button class="boton"><a href="/">Login</a></button>
         </form>
-        <form action="" id="registro" style="display:none" method="post">
+        <form action="/registrarse" enctype="multipart/form-data" id="registro" style="display:none" method="post">
             <div id="Isologotipo_login">FINDER<i class='bx bxs-donate-heart bx-md' style='color:#d2a6d6'></i></i></div>
             <label>
                 <i class="bx bx-user"></i>
@@ -102,7 +102,7 @@
             <div id="imgContainer">
                 <i class='bx bxs-camera-plus'></i>
                 <label id="imagenes">Selecciona las imagenes que quieras: 
-                    <input type="file" multiple>
+                    <input type="file" multiple name="avatar">
                 </label>
             </div><br>
             <input type="submit" value="Haz click aqui para registrarte">

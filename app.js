@@ -13,8 +13,8 @@ app.set("view engine", "ejs");
 
 (async () => {
 try {
-    const db = await mongoose.connect("mongodb+srv://MelanieDiPardo:42435855@cluster0.iqd3weu.mongodb.net/?retryWrites=true&w=majority");
-    // const db = await mongoose.connect("mongodb://localhost:27017/Finder");
+    /* const db = await mongoose.connect("mongodb+srv://MelanieDiPardo:42435855@cluster0.iqd3weu.mongodb.net/?retryWrites=true&w=majority"); */
+    const db = await mongoose.connect("mongodb://localhost:27017/Finder");
     console.log("Database connected to ", db.connection.name);
 } catch (error) {
     console.error(error);

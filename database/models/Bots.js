@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
 
 const bots = new mongoose.Schema({
-    avatar: {
-        type: String,
-    },
-    nombre: {
+    username: {
         type: String,
         required: true,
         trim: true,
@@ -14,13 +11,6 @@ const bots = new mongoose.Schema({
         min: 18,
         required: true,
     },
-    likes: {
-        type: [String],
-    },
-    description: {
-        type: String,
-
-    },
     email: {
         type: String,
         required: true,
@@ -29,6 +19,12 @@ const bots = new mongoose.Schema({
     password: {
         type: String,
         required: true,
+    },
+    likes: {
+        type: [String],
+    },
+    avatar: {
+        type: [String],
     },
 },
     {
