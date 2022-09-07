@@ -465,4 +465,17 @@ label{
     height: 15%;
 }
 
+.intereses{
+    display: flex;
+    align-items: center;
+}
+
+#imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+#imgContainer{
+    display: flex;
+}
 /* aaaa */

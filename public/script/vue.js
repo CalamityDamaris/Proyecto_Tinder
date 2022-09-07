@@ -8,7 +8,7 @@ const app = new Vue({
         nuevoCorreo:"",
         nuevaContraseña:"",
         login: "Iniciar Sesión",
-        reg: "Registrarse"
+        reg: "Registrarse",
     },
     methods:{
         desplegarLogin(){
